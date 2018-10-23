@@ -15,6 +15,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/admin', function(){
-	return view('admin.pages.home');
+
+
+Route::prefix('admin')->group(function () {
+    Route::get('/', function () {
+     	return view('admin.pages.home');
+    });
+    Route::get('/contact', function(){
+    	return view('admin.pages.contact');
+    });
+    Route::get('/contact/{id}', function(){
+    	return view('admin.pages.read_mail');
+    });
 });

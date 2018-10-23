@@ -31,10 +31,19 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
+        <li class="active"><a href="#"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
+         <li class="treeview">
+          <a href="#"><i class="fa fa-link"></i> <span>Sales</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="#">Order</a></li>
+          </ul>
+        </li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Catalog</span>
+          <a href="#"><i class="fa fa-table"></i> <span>Catalog</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
@@ -42,6 +51,31 @@
           <ul class="treeview-menu">
             <li><a href="#">Product</a></li>
             <li><a href="#">Category</a></li>
+            <li><a href="">Promotion</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#"><i class="fa fa-users"></i> <span>Customers</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="#">All Customers</a></li>
+            <li><a href="#">Now Online</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#"><i class="fa fa-files-o"></i> <span>Pages</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="#">Slider</a></li>
+            <li><a href="#">Comment</a></li>
+            
+            <li><a href="#">Contact</a></li>
           </ul>
         </li>
       </ul>
